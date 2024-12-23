@@ -16,9 +16,9 @@
 | Ensemble        | 87.116139 | 0.869451  | 0.871161  | 0.870194  |
 
 - **Baseline**: Naive Bayes (Model 0)
-- **Simple Dense**: Feed-forward neural network (Model 1)
-- **LSTM**: Long Short-Term Memory model (Model 2)
-- **GRU**: Gated Recurrent Unit model (Model 3)
-- **Bidirectional**: Bidirectional-LSTM model (Model 4)
+- **Simple Dense**: Feed-forward Neural Network (Model 1)
+- **LSTM**: Long Short-Term Memory Model (Model 2)
+- **GRU**: Gated Recurrent Unit Model (Model 3)
+- **Bidirectional**: Bidirectional-LSTM Model (Model 4)
 - **Conv1D**: 1D Convolutional Neural Network (Model 5)
 - **Ensemble**: Combination of multiple models for improved accuracy (Model 0 + Model 1 + Model 5)
