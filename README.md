@@ -1,6 +1,6 @@
 # Customer Feedback Analysis
 
-![main_screen](https://i.ibb.co/wFCwXgfv/customer.png)
+![main_screen](https://i.imgur.com/qbZ944M.png)
 
 
 ## Comparing the performance of all the models
