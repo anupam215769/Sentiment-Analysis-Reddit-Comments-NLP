@@ -1,19 +1,19 @@
-# Sentiment Analysis for Reddit Comments using NLP
+# Customer Feedback Analysis
 
-![main_screen](https://i.ibb.co/p2c68xL/Screenshot-1.png)
+![main_screen](https://i.ibb.co/wFCwXgfv/customer.png)
 
 
 ## Comparing the performance of all the models
 
-| Model           | Accuracy  | Precision | Recall    | F1        |
-|-----------------|-----------|-----------|-----------|-----------|
-| Baseline        | 77.256985 | 0.803389  | 0.772570  | 0.686895  |
-| Simple Dense    | 88.501501 | 0.881913  | 0.885015  | 0.879412  |
-| LSTM            | 83.329485 | 0.846905  | 0.833295  | 0.838088  |
-| GRU             | 84.737936 | 0.850582  | 0.847379  | 0.848798  |
-| Bidirectional   | 85.800046 | 0.855731  | 0.858000  | 0.856707  |
-| Conv1D          | 86.261833 | 0.856871  | 0.862618  | 0.856728  |
-| Ensemble        | 87.116139 | 0.869451  | 0.871161  | 0.870194  |
+| Model         |   Accuracy | Precision |  Recall  |    F1    |
+|---------------|-----------:|----------:|---------:|---------:|
+| Baseline      | 79.776763  | 0.761436  | 0.797768 | 0.723605 |
+| Simple Dense  | 85.289073  | 0.833047  | 0.852891 | 0.834432 |
+| LSTM          | 88.847842  | 0.878399  | 0.888478 | 0.881060 |
+| GRU           | 88.495132  | 0.878578  | 0.884951 | 0.881209 |
+| Bidirectional | 88.564618  | 0.878972  | 0.885646 | 0.881670 |
+| Conv1D        | 88.087008  | 0.871726  | 0.880870 | 0.874662 |
+| BERT          | 84.926687  | 0.879090  | 0.849267 | 0.860673 |
 
 - **Baseline**: Naive Bayes (Model 0)
 - **Simple Dense**: Feed-forward Neural Network (Model 1)
@@ -21,4 +21,4 @@
 - **GRU**: Gated Recurrent Unit Model (Model 3)
 - **Bidirectional**: Bidirectional-LSTM Model (Model 4)
 - **Conv1D**: 1D Convolutional Neural Network (Model 5)
-- **Ensemble**: Combination of multiple models for improved accuracy (Model 0 + Model 1 + Model 5)
+- **BERT**: Pre-trained BERT (Model 6)
